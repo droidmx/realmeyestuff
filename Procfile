@@ -1,1 +1,1 @@
-web: node fetchinfo
+web: node bot
