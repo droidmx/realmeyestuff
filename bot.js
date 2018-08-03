@@ -49,6 +49,7 @@ bot.on('message', async (msg) => {
         msg.channel.send(`<:${emoji.name}:${emoji.id}>`);
     }
     if (msg.content === 'I am loloollooo') {
+        console.log('command recieved')
         const name = "wand of the bulwark";
         const urlName = name.split(" ").join("-");
 
